@@ -7,5 +7,5 @@ if [ -d "$DIR" ]; then
         mv files "$DIR"
 else
         mkdir test
-        mv files test
+        cp -r files test
 fi
