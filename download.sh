@@ -4,7 +4,7 @@ unzip files.zip -d files
 DIR="$HOME/Desktop"
 
 if [ -d "$DIR" ]; then
-        mv files "$DIR"
+        cp -r files "$DIR"
 else
         mkdir test
         cp -r files test
